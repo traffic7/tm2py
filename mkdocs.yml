@@ -23,6 +23,14 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
+nav:
+  - Home: index.md
+  - Getting Started: starting.md
+  - Architecture: architecture.md
+  - Code Review for Transport Modelers (한국어): code_review_for_transport_modelers_kr.md
+  - API Reference: api.md
+  - Contributing: contributing/
+
 plugins:
   - autorefs
   - awesome-pages
@@ -52,7 +60,6 @@ plugins:
             show_root_heading: true
             show_source: true
             heading_level: 3
-      custom_templates: templates
       watch:
         - tm2py
   - search
@@ -67,7 +74,6 @@ markdown_extensions:
   - admonition
   - codehilite:
       linenums: true
-  - fontawesome_markdown
   - meta
   - pymdownx.inlinehilite
   - pymdownx.tasklist:
