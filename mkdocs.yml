@@ -83,4 +83,11 @@ markdown_extensions:
   - toc:
       # insert a blank space before the character
       permalink: " ¶"
+
+nav:
+  - Home: index.md
+  - Getting Started: starting.md
+  - Architecture: architecture.md
+  - API Reference: api.md
+  - Code Review (한국어): code_review_korean.md
   
